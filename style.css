@@ -166,6 +166,22 @@
 }
 
 /* esercizio 10 */
+.ex-10-icon {
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+   animation-direction: reverse;
+}
+
+@keyframes loading {
+  /* 0% {
+  transform: rotate(0);
+  } */
+  100% {
+  transform: rotate(360deg);
+  }
+}
 /* esercizio 11 */
 /* esercizio 12 */
 /* esercizio 13 */
